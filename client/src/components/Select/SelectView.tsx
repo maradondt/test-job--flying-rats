@@ -53,9 +53,7 @@ const SelectView: React.FC<Props> = ({
     <div className="row justify-content-center">
       <div className="col-8 col-md-4 mb-3">
         <WrapperSelect>
-          {/* <Arrow onClick={handleClick}>^</Arrow> */}
           <Select
-            // ref={selectInput}
             onChange={(e) => onChange(e.target.value)}
             className="form-select form-select-lg"
             aria-label="Select the rat"
